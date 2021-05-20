@@ -1,4 +1,4 @@
-# Greetings fellow project mates.
+## Classes and their attributes for the Restaurant Reservation and Point of Sale System (RRPSS).
 
 ```
 // Food, menu components
