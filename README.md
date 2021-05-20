@@ -48,6 +48,10 @@ Functional Requirements:
 The application is to be developed as a Console-based application (non-Graphical UI). Data should
 be stored in flat file format, either in text or binary.
 
+## Start Up of Restaurant Reservation and Point of Sale System (RRPSS).
+
+![Image of start up](https://github.com/ShearmanChua/CZ2002-OOP-Project/blob/master/images/startup.jpg)
+
 ## Classes and their attributes for the Restaurant Reservation and Point of Sale System (RRPSS).
 
 ```
