@@ -1,4 +1,54 @@
-# Greetings fellow project mates.
+# CE/CZ2002: Object-Oriented Design & Programming - Building an OO Application
+
+## THE ASSIGNMENT
+
+The assignment for your group will be to design and develop a :
+Restaurant Reservation and Point of Sale System (RRPSS). RRPSS is an application to computerize the processes of making reservation, recording of orders and displaying of sale records. It will be solely used by the restaurant staff.
+
+The restaurant operates in 2 sessions (AM : 11am – 3pm, PM : 6pm – 10pm).
+
+The following are information about the application:
+a) Menu items should be categorized according to its type, eg, Main course, drinks,
+dessert, etc.
+b) Menu items can be added with details like name, description, price, etc.
+c) Promotional set package comes in a single package price with descriptions of the
+items to be served.
+d) A customer may order a set package or ala carte menu items.
+e) An order should indicate the staff who created the order.
+f) Staff information can be in the form of name, gender, employee ID and job title.
+g) Reservation is made by providing details like date, arrival time, #pax, name, contact
+number, etc and the table status is ‘reserved’. The system should check availability
+and allocate a suitable table.
+h) Contact number is used to identify reservation.
+i) When a reservation is made, the table is reserved till the reservation booking is
+removed (eg time expired). Once a table is reserved, it cannot be booked for that
+particular session (AM/PM).
+j) Once an order is entered, the table status is ‘occupied’*.
+k) Once an order invoice is printed, it is assumed that payment has been made and the
+table statue is ‘vacated’*.
+l) Table comes in different seating capacity, in even sizes, with minimum of 2 and
+maximum of 10 pax ("Persons At Table").
+m) Order invoice can be printed to list the order details (eg, table number, timestamp)
+and a complete breakdown of order items details with taxes details.
+n) Sale revenue report will detail the period, individual sale items (either ala carte or
+promotional items) and total revenue.
+
+Functional Requirements:
+1. Create/Update/Remove menu item
+2. Create/Update/Remove promotion
+3. Create order
+4. View order
+5. Add/Remove order item/s to/from order
+6. Create reservation booking
+7. Check/Remove reservation booking
+8. Check table availability
+9. Print bill invoice
+10. Print sale revenue report by period (eg day or month)
+
+The application is to be developed as a Console-based application (non-Graphical UI). Data should
+be stored in flat file format, either in text or binary.
+
+## Classes and their attributes for the Restaurant Reservation and Point of Sale System (RRPSS).
 
 ```
 // Food, menu components
